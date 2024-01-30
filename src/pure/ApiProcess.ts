@@ -18,7 +18,7 @@ export interface StartConfig {
   registerOnTestFinished: (onTestFinished: () => void) => void
 }
 
-export class ApiProcess {
+class ApiProcess {
   private process?: ChildProcess
   private vitestState?: ReturnType<typeof buildWatchClient>
   private started = false
