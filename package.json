@@ -159,7 +159,9 @@
     "watch": "tsup ./src/extension.ts --external vscode --watch --sourcemap",
     "test": "vitest run",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc -b",
+    "typecheck-watch": "tsc -b --watch --preserveWatchOutput"
   },
   "dependencies": {},
   "devDependencies": {

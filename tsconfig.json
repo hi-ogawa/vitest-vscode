@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noEmit": true,
     "module": "commonJS",
     "target": "ES2020",
     "outDir": "out",

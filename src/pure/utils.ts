@@ -175,7 +175,8 @@ const capitalizeDriveLetter = (path: string) => {
 }
 const replaceDoubleSlashes = (string: string) => string.replace(/\\/g, '/')
 
-export function sanitizeFilePath(path: string) {
+// TODO: remove unused _isTestPattern
+export function sanitizeFilePath(path: string, _isTestPattern?: boolean) {
   if (isWindows) {
     return replaceDoubleSlashes(capitalizeDriveLetter(path))
   }
