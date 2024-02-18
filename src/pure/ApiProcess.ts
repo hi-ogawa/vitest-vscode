@@ -200,6 +200,9 @@ export function runVitestWithApi(
   return new Promise<string>((resolve) => {
     const process = new ApiProcess(vitest, workspace, {
       ...handlers,
+      onUserConsoleLog(log) {
+        console.log("[log]", log);
+      },
       onFinished: (files) => {
         log.info('Vitest api process finished')
         try {

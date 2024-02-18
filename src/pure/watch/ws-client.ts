@@ -147,6 +147,7 @@ export function createClient(url: string, options: VitestClientOptions = {}) {
       },
       onUserConsoleLog(log) {
         ctx.state.updateUserLog(log)
+        handlers.onUserConsoleLog?.(log)
       },
       onFinished(files) {
         handlers.onFinished?.(files)
