@@ -1,0 +1,19 @@
+pnpm-lock.yaml
+  s_072d74fb2b8ad4::t_0705fc862c20af 160,163,166,428,431,440,2001-2003,2028-2030,2085-2087,2103-2105,2125-2127,2129-2137,2147-2149,5103-5105,6564,6566-6567,6570,6631,6634-6636,6641,6759,6762,6776,6810-6820,6822,6824,6830,6844,6846,10074,10077,10092-10093
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "222d9b86ced4bf4ac61edbaf60db92f63afd2e00",
+  "prompts": {},
+  "sessions": {
+    "s_072d74fb2b8ad4": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f85fccf4effe8gQGJs1QyswlXN",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Hiroshi Ogawa <4232207+hi-ogawa@users.noreply.github.com>"
+    }
+  }
+}
